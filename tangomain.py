@@ -20,11 +20,11 @@ bot = commands.Bot(command_prefix='t!', activity=discord.Game(name="t!help for h
 slash = SlashCommand(bot,sync_commands = True) 
 guild_id = [949218723305238538]
 
-reddit = praw.Reddit(client_id ="idMTAkYpGO4uLHn-TiTcoA",#
-                    client_secret ="8CAl12wPM4hnS5qddd-SdNNVxfMQ3g",#
-                    username ="Bulky_Carpet_6507",#8
-                    password ="rama@gokul",#
-                    user_agent ="tango lel")#
+reddit = praw.Reddit(client_id ="ur id",#
+                    client_secret ="ur sikeret",#
+                    username ="usarnem",#8
+                    password ="psasjdcgiuski",#
+                    user_agent ="userr aganet")#
 
 async def get_bank_data():
   with open("mainbank.json", "r") as f:
