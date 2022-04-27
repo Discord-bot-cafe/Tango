@@ -14,7 +14,7 @@ import wikipedia
 from keep_alive import keep_alive
 
 
-TOKEN='OTQ4NDY3NjcxODc4NDk2Mjk3.Yh8PWg.ccHpufjp4v1DKkPVjr9Mgh1lfp4'
+TOKEN='YOUR TOKEN HERE'
 
 bot = commands.Bot(command_prefix='t!', activity=discord.Game(name="t!help for help"),help_command=None)
 slash = SlashCommand(bot,sync_commands = True) 
